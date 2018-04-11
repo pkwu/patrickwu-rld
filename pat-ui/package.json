@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup:server": "cd server && npm install",
+    "setup:client": "cd client && npm install",
+    "build": "cd client && npm run build",
     "start": "cd server && npm start",
     "buildEnv": "node bin/buildEnv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
