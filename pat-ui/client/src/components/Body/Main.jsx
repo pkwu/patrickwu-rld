@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Main extends Component {
   state = {
-    //
+    
   }
 
   render() {
@@ -13,3 +13,5 @@ class Main extends Component {
     )
   }
 }
+
+export default Main;
