@@ -11,7 +11,12 @@ class Bar extends Component {
   render() {
     return (
       <div>
-        HELLO FROM NAV BAR
+        <h5>Patrick K Wu</h5>
+        <button>PROJECTS</button>
+        <button>TECH STACK</button>
+        <button>ABOUT ME</button>
+        <button>CONTACT ME</button>
+        <button>RESUME</button>
       </div>
     )
   }

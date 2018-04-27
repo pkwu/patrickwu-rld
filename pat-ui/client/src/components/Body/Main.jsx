@@ -8,7 +8,13 @@ class Main extends Component {
   render() {
     return (
       <div>
-        HELLO FROM MAIN
+        <h1>BANNER</h1>
+        <br/><br/>
+        <h3>PROJECTS</h3>
+        <br/><br/>
+        <h4>TECHNOLOGIES</h4>
+        <br/><br/>
+        <h3>ABOUT ME</h3>
       </div>
     )
   }
