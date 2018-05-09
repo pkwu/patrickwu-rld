@@ -11,7 +11,7 @@ class Bar extends Component {
   render() {
     return (
       <div class="nav-container">
-        <h3 class="nav-left">Patrick K Wu</h3>
+        <div class="nav-left">Patrick K Wu</div>
         <button class="nav-right">PROJECTS</button>
         <button class="nav-right">TECH STACK</button>
         <button class="nav-right">ABOUT ME</button>
