@@ -10,13 +10,13 @@ class Bar extends Component {
 
   render() {
     return (
-      <div>
-        <h5>Patrick K Wu</h5>
-        <button>PROJECTS</button>
-        <button>TECH STACK</button>
-        <button>ABOUT ME</button>
-        <button>CONTACT ME</button>
-        <button>RESUME</button>
+      <div class="nav-container">
+        <h3 class="nav-left">Patrick K Wu</h3>
+        <button class="nav-right">PROJECTS</button>
+        <button class="nav-right">TECH STACK</button>
+        <button class="nav-right">ABOUT ME</button>
+        <button class="nav-right">CONTACT ME</button>
+        <button class="nav-right">RESUME</button>
       </div>
     )
   }

@@ -8,20 +8,26 @@ import Banner from '../components/Banner';
 const App = () => {
   return (
     <BrowserRouter>
-      <div>
+      <div class='container'>
         <Switch>
-          <Route path='/' component={Bar}/>
+          <div class="wrapper">
+            <Route path='/' component={Bar} class="row"/>
+          </div>
         </Switch>
         <br/><br/>
         <Switch>
-          <Route path='/' component={Banner}/>
+          <div class="wrapper">
+            <Route path='/' component={Banner} class="row"/>
+          </div>
         </Switch>
         <br/><br/>
         <Switch>
           <Route path='/' component={Main}/>
         </Switch>
         <br/><br/>
-        <Footer/>
+        <div class="wrapper">
+          <Footer class="row"/>
+        </div>
       </div>
     </BrowserRouter>
   )

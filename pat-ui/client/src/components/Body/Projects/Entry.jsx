@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 
 const Entry = (prop) => (
-  <div>
-    <h3>
-      {JSON.stringify(prop.name)}
+  <article>
+    <h3 class="col-1-2">
+      Project Name: {prop.name}
+      <br/>
+      Project Description: {prop.description}
+      <br/>
+        Project Link: <a href={prop.url}>{prop.url}</a>
     </h3>
-  </div>
+  </article>
 )
 
 export default Entry;

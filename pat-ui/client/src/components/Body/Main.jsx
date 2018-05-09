@@ -11,11 +11,18 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <Projects/>
+        <div class="wrapper">
+          <Projects class="row"/>
+        </div>
         <br/><br/>
-        <Technologies/>
         <br/><br/>
-        <Blurb/>
+        <div class="wrapper">
+          <Technologies class="row"/>
+        </div>
+        <br/><br/>
+        <div class="wrapper">
+          <Blurb class="row"/>
+        </div>
       </div>
     )
   }
