@@ -93,6 +93,19 @@
   .project-entry {
     width: 100vw;
     text-align: center;
+    height: 100px;
+  }
+
+  .project-url {
+    font-size: 1vw;
+    align-self: center;
+    margin-bottom: 10%;
+  }
+
+  .git-photo {
+    align-self: flex-end;
+    width: 3vw;
+    height: auto;
   }
 }
 
