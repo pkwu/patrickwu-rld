@@ -7,10 +7,9 @@ class Banner extends Component {
 
   render() {
     return (
-      <div class="wrapper">
-        <img class="banner"/>
+      <div class="banner-container">
+        <img class="banner" src="https://wallpaperclicker.com/storage/wallpaper/Abstract-Snake-Wallpaper-HD-76277440.jpg"/>
       </div>
-      // </div>
     )
   }
 }

@@ -10,21 +10,14 @@ const App = () => {
     <BrowserRouter>
       <div class='container'>
         <Switch>
-          <div class="wrapper">
-            <Route path='/' component={Bar} class="row"/>
-          </div>
+          <Route path='/' component={Bar} class="row"/>
         </Switch>
-        <br/><br/>
         <Switch>
-          <div class="wrapper">
-            <Route path='/' component={Banner} class="row"/>
-          </div>
+          <Route path='/' component={Banner} class="row"/>
         </Switch>
-        <br/><br/>
         <Switch>
           <Route path='/' component={Main}/>
         </Switch>
-        <br/><br/>
         <div class="wrapper">
           <Footer class="row"/>
         </div>

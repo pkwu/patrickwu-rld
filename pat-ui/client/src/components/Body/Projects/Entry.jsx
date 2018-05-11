@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 
 const Entry = (prop) => (
-  <div class="container">
-    <div class="project-entry">
-      Project Name: {prop.name}
-      <br/>
-      Project Description: {prop.description}
-      <br/>
+  <div class="project-entry-container">
+    <div class="project-detail">
+      <div class="project-name">
+        {prop.name}
+      </div>
+      <div class="project-descrip">
+        {prop.description}
+      </div>
     </div>
     <div class="project-url">
       <a href={prop.url}>
-        <img class="git-photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQO4Ko_OfhGZrbubWBTYMtVhdcSmVQmWAgrNHe56lKxuyCBO9eWA"/>
+        <img class="git-photo" src="http://pluspng.com/img-png/github-free-icon-512.png"/>
       </a>
     </div>
   </div>
