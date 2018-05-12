@@ -8,7 +8,7 @@ class Banner extends Component {
   render() {
     return (
       <div class="banner-container">
-        <img class="banner" src="https://wallpaperclicker.com/storage/wallpaper/Abstract-Snake-Wallpaper-HD-76277440.jpg"/>
+        <img class="banner" src="https://i.pinimg.com/originals/2e/3d/d4/2e3dd47ac7f21d291be5ed4e2bda242c.jpg"/>
       </div>
     )
   }

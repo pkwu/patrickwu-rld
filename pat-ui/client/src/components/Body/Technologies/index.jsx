@@ -8,14 +8,14 @@ class Technologies extends Component {
 
   render() {
     return (
-      <div>
-        <h5 class="col-4">A list of Technologies!</h5>
-        <div>
+      <div class="tech-container">
+        <div class="tech-header">A list of Technologies!</div>
+        <div class="tech-list">
           {this.state.technologies.map( (tech, index) => {
             return <Entry name={tech} key={index}/>
           })}
         </div>
-        <div class="col-4">Feel free to inquire about a technology not listed above!</div>
+        <div class="tech-footer">Feel free to inquire about a technology not listed above!</div>
       </div>
     )
   }
