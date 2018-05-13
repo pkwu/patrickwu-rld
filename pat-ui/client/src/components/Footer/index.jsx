@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Footer = () => {
   return (
-    <div class="col-4">
+    <div class="footer">
       Patrick K Wu · 626-456-2230 · query.patrick@gmail.com
     </div>
   )
