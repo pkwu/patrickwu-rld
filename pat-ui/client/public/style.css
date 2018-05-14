@@ -14,21 +14,6 @@ body {
   height: 100%;
 }
 
-.banner-container {
-  max-height: 30%;
-  max-width: auto;
-  overflow: hidden;
-  background-color: white;
-}
-
-.banner {
-  margin-top: 3%;
-  width: 90%;
-  height: 90%;
-  /* opacity: 0.75; */
-  background-position: center;
-}
-
 .nav-container {
   position: fixed;
   display: flex;
@@ -37,8 +22,8 @@ body {
   align-items: center;
   width: 100%;
   height: 6%;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 
@@ -66,29 +51,44 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-end;
-  /* background-color: black; */
-  /* color: white; */
+  background-color: black;
+  color: white;
   border: none;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
+}
+
+.banner-container {
+  max-height: 30%;
+  max-width: auto;
+  overflow: hidden;
+  background-color: white;
+}
+
+.banner {
+  margin-top: 3%;
+  width: 90%;
+  height: 90%;
+  /* opacity: 0.75; */
+  background-position: center;
 }
 
 .project-container {
   background-color: black;
   height: 40%;
-  margin-top: 1%;
   display: flex;
   width: 100vw;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
-  margin-bottom: 1%;
 }
 
 .project-entry-container {
+  margin-top: 10%;
+  margin-bottom: 10%;
   display: flex;
   width: 10%;
   flex-direction: column;
-  border:1px solid red;    
+  border:1px solid green;    
   height:18vw;
   border-radius:50%;
   -moz-border-radius:50%;
@@ -143,7 +143,7 @@ body {
 }
 
 .tech-header {
-  margin-top: 1%;
+  margin-top: 10%;
   font-size: 3vw;
   height: 10%;
   width: 60%;
@@ -153,7 +153,7 @@ body {
 .tech-list {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 60%;
   height: 70%;
   justify-content: center;
   align-items: center;
@@ -166,7 +166,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 20%;
-  width: 18%;
+  width: 24%;
   font-size: 3vw;
 }
 
@@ -174,27 +174,28 @@ body {
   margin-top: 1%;
   height: 5%;
   text-align: center;
-  font-size: 2vw;
-  margin-bottom: 1%;
+  font-style: oblique;
+  font-size: 1vw;
+  margin-bottom: 10%;
 }
 
 .blurb-container {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-bottom: 1%;
   background-color: black;
 }
 
 .blurb {
-  margin-top: 1%;
+  margin-top: 10%;
   width: 50%;
   font-size: 2vw;
   height: 40%;
+  margin-bottom: 10%;
 }
 
 .footer-bar {
-  height: 100%;
+  height: 10vh;
   width: 100%;
   background-color: white;
   color: black;
@@ -202,11 +203,14 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-top: 3px solid green;
 }
 
 .footer-container {
-  width: 40%;
-  background-color: green;
+  margin-left: 1%;
+  margin-right: 2%;
+  width: 125vh;
+  /* background-color: green; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -216,15 +220,20 @@ body {
 .footer {
   /* display: flex; */
   margin-top: 0.5%;
-  width: 15%;
+  width: 30%;
   height: 90%;
   margin-bottom: 0.5%;
+  font-style: oblique;
+  font-size: 2vw;
   /* justify-content: flex-end; */
 }
 
 .footer-dot {
-  width: 5%;
-  margin-left: 1%;
+  width: 10%;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
+  font-style: oblique;
+  font-size: 1vw;
 }
 
 @media only screen and (max-width: 700px)  {

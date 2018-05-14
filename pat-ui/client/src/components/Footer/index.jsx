@@ -7,13 +7,13 @@ const Footer = () => {
         <div class="footer">
           Patrick K Wu
         </div>  
-        <div class="footer">
+        <div class="footer-dot">
          · 
         </div>
         <div class="footer">
           626-456-2230
         </div>
-        <div class="footer">
+        <div class="footer-dot">
          · 
         </div>
         <div class="footer">
