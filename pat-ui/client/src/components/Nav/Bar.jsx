@@ -12,11 +12,13 @@ class Bar extends Component {
     return (
       <div class="nav-container">
         <div class="nav-left">Patrick K Wu</div>
-        <button class="nav-right">PROJECTS</button>
-        <button class="nav-right">TECH STACK</button>
-        <button class="nav-right">ABOUT ME</button>
-        <button class="nav-right">CONTACT ME</button>
-        <button class="nav-right">RESUME</button>
+        <div class="nav-right-container">
+          <button class="nav-right">PROJECTS</button>
+          <button class="nav-right">TECHNOLOGIES</button>
+          <button class="nav-right">ABOUT ME</button>
+          <button class="nav-right">CONTACT ME</button>
+          <button class="nav-right">RESUME</button>
+        </div>
       </div>
     )
   }
