@@ -13,7 +13,7 @@ class Bar extends Component {
       <div class="nav-container">
         <div class="nav-left">Patrick K Wu</div>
         <div class="nav-right-container">
-          <button class="nav-right">PROJECTS</button>
+          <button class="nav-right" onClick={() => { document.getElementById('project-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>PROJECTS</button>
           <button class="nav-right">TECHNOLOGIES</button>
           <button class="nav-right">ABOUT ME</button>
           <button class="nav-right">CONTACT ME</button>

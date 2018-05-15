@@ -16,10 +16,10 @@ body {
 
 .nav-container {
   position: fixed;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+  display: inline-block;
+  /* flex-direction: row; */
+  /* flex-wrap: nowrap; */
+  /* align-items: center; */
   width: 100%;
   height: 6%;
   /* background-color: yellow; */
@@ -29,29 +29,33 @@ body {
 
 
 .nav-left {
-  display: flex;
-  align-self: flex-start;
-  width: 25%;
-  text-align: left;
+  /* display: flex; */
+  /* align-self: flex-start; */
+  width: auto;
+  /* text-align: left; */
+  margin-top: 1%;
   font-size: 30px;
   /* font-style: oblique; */
   font-family: nosifer, sans-serif;
   font-weight: bold;
-  min-height: 1px;
-  flex-wrap: wrap;
+  /* min-height: 1px;
+  flex-wrap: nowrap;
   margin-left: 1%;
   margin-top: 0.5%;
-  margin-bottom: 1%;
+  margin-bottom: 1%; */
   background-color: black;
 }
 
 .nav-right-container {
-  align-self: flex-end;
-  width: 75%;
-  height: 100%;
-  display: flex;
+  /* align-self: flex-end; */
+  /* display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: flex-end; */
+  /* margin-top: 0%; */
+  /* top: 0; */
+  float: right;
+  /* width: 75%; */
+  /* height: 100%; */
 }
 
 .nav-right {
@@ -63,7 +67,7 @@ body {
   /* flex-wrap: wrap; */
   /* justify-content: center; */
   /* align-items: flex-end; */
-  /* align-self: flex-end; */
+  align-self: flex-end;
   background-color: black;
   color: white;
   border: none;
