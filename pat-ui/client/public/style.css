@@ -16,7 +16,7 @@ body {
 
 .nav-container {
   position: fixed;
-  display: inline-block;
+  display: block;
   /* flex-direction: row; */
   /* flex-wrap: nowrap; */
   /* align-items: center; */
@@ -31,8 +31,9 @@ body {
 .nav-left {
   /* display: flex; */
   /* align-self: flex-start; */
-  width: auto;
-  /* text-align: left; */
+  /* width: auto; */
+  float: left;
+  text-align: center;
   margin-top: 1%;
   font-size: 30px;
   /* font-style: oblique; */
@@ -53,6 +54,7 @@ body {
   align-items: flex-end; */
   /* margin-top: 0%; */
   /* top: 0; */
+  padding: 14px 16px;
   float: right;
   /* width: 75%; */
   /* height: 100%; */
