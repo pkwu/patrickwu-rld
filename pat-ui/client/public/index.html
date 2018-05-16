@@ -10,7 +10,19 @@
     <script src='http://use.edgefonts.net/nosifer.js'></script>
     <script src='http://use.edgefonts.net/cedarville-cursive.js'></script>
     <script src='http://use.edgefonts.net/emilys-candy.js'></script>
-    <script src='https://fonts.googleapis.com/css?family=Denk+One'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          jQuery(window).scroll( () => {
+            let topPx = 1200;
+            let scroll = jQuery(window).scrollTop();
+            scroll > topPx ? 
+              jQuery('body').addClass('scrolled')
+              : 
+              jQuery('body').removeClass('scrolled')
+          })
+        });
+    </script>
     <title>PatrickWurld</title>
   </head>
   <body>

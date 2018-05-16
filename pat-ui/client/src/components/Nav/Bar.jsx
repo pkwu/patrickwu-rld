@@ -13,7 +13,7 @@ class Bar extends Component {
       <div class="nav-container">
         <div class="nav-left-container">
           <div class="nav-left">
-            Patrick K Wu
+            Patrick Wu
           </div>
         </div>
         <div class="nav-right-container">
