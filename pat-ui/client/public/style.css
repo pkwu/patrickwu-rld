@@ -57,10 +57,10 @@ body.scrolled {
   /* bottom: 0; */
   float: left;
   text-align: center;
-  margin-top: 19px;
+  margin-top: 13px;
   margin-left: 6px;
   /* top: 100px; */
-  font-size: 30px;
+  font-size: 35px;
   /* font-style: oblique; */
   font-family: nosifer, sans-serif;
   font-weight: bold;
@@ -71,6 +71,7 @@ body.scrolled {
   margin-bottom: 1%; */
   color: red;
   background-color: none;
+  text-shadow: 2px 2px 3px green, 0 0 30px red, 0 0 10px darkred;
 }
 
 .nav-right-container {
@@ -90,14 +91,15 @@ body.scrolled {
 .nav-right {
   text-align: center;
   /* background-color: black; */
-  margin-top: 18px;
+  margin-top: 13px;
   color: red;
-  font-size: 15px;
+  font-size: 20px;
   font-family: nosifer, sans-serif;
   display: block;
   padding: 13px 16px;
   background-color: none;
   float: right;
+  text-shadow: 2px 2px 3px green, 0 0 30px red
 }
 
 .banner-container {
@@ -105,44 +107,40 @@ body.scrolled {
   height: 100vh;
   width: 100%;
   margin-top: 2%;
-  /* max-height: 30%; */
-  /* max-width: auto; */
   overflow: hidden;
-  /* background-color: white; */
-  background-size: 10px;
-  /* background: url(http://www.wallpapersbyte.com/wp-content/uploads/2015/06/Batman-Arkham-City-Origin-Joker-Smile-Suit-Black-And-White-Fan-Art-WallpapersByte-com-3840x2400.jpg); */
-  /* background-position-x: 50%;
-  background-position-y: 50%; */
-  background-repeat: no-repeat;
-  /* border: 5px solid green; */
   z-index: -1;
   border-bottom: 3px solid green;
 }
 
 .banner-image {
+  background: url(http://www.wallpapersbyte.com/wp-content/uploads/2015/06/Batman-Arkham-City-Origin-Joker-Smile-Suit-Black-And-White-Fan-Art-WallpapersByte-com-3840x2400.jpg);
+  background-position-x: 50%;
+  /* background-position-y: 50%; */
   height: 100%;
-  width: 100%;
+  position: relative;
+  background-image: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-/* .banner { */
-  /* width: 100%; */
-  /* height: 100%; */
-  /* opacity: 0.75; */
-  /* background-position: center; */
-  /* border: 1px solid red; */
-  /* background-position-x: 50%; */
-/* } */
-
 .banner-text {
+  background-color: #000;
+  /* color: #fff; */
+  mix-blend-mode: multiply;
   position: absolute;
-  /* top: 0; */
-  bottom: 6vw;
-  left: 23vw;
-  /* top: -30vh; */
-  color: green;
-  font-size: 10vw;
+  height: 200px;
+  width: 100%;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
   font-family: creepster, sans-serif;
-  /* text-align: center; */
+  margin: 0;
+  opacity: 0.9;
+  box-shadow: 0 0 16px green, 0 0 32px green;
+  font-size: 150px;
+  bottom: -150px;
+  text-align: center;
   text-shadow: 2px 2px 3px black, 0 0 30px green, 0 0 10px darkgreen;
 }
 
@@ -349,7 +347,6 @@ body.scrolled {
 	}
 
   .project-container {
-    margin-top: 1%;
     display: flex;
     flex-direction: column;
     width: 100vw;
