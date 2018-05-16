@@ -17,11 +17,11 @@ class Bar extends Component {
           </div>
         </div>
         <div class="nav-right-container">
-          <button class="nav-right" onClick={() => { document.getElementById('project-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>PROJECTS</button>
-          <button class="nav-right">TECHNOLOGIES</button>
-          <button class="nav-right">ABOUT ME</button>
-          <button class="nav-right">CONTACT ME</button>
-          <button class="nav-right">RESUME</button>
+          <div class="nav-right">RESUME</div>
+          <div class="nav-right">CONTACT ME</div>
+          <div class="nav-right">ABOUT ME</div>
+          <div class="nav-right">TECHNOLOGIES</div>
+          <div class="nav-right" onClick={() => { document.getElementsByClassName('project-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>PROJECTS</div>
         </div>
       </div>
     )
