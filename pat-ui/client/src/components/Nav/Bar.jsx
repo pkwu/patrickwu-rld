@@ -11,7 +11,11 @@ class Bar extends Component {
   render() {
     return (
       <div class="nav-container">
-        <div class="nav-left">Patrick K Wu</div>
+        <div class="nav-left-container">
+          <div class="nav-left">
+            Patrick K Wu
+          </div>
+        </div>
         <div class="nav-right-container">
           <button class="nav-right" onClick={() => { document.getElementById('project-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>PROJECTS</button>
           <button class="nav-right">TECHNOLOGIES</button>
