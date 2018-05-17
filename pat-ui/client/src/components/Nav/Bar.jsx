@@ -20,7 +20,17 @@ class Bar extends Component {
           <div class="nav-right">RESUME</div>
           <div class="nav-right">CONTACT ME</div>
           <div class="nav-right" onClick={() => { document.getElementById('blurb-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>ABOUT ME</div>
-          <div class="nav-right" onClick={() => { document.getElementById('tech-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>TECHNOLOGIES</div>
+          <div class="nav-right" onClick={() => { 
+            let ele = document.getElementById('tech-container');
+            let pos = ele.getBoundingClientRect().top;
+            console.log('scrollTOP ', document.getElementsByClassName('app'));
+            console.log('this is ele ', ele);
+            console.log('this is pos ', pos);
+            window.scrollTo({
+              top: pos,
+              behavior: 'smooth'
+            }) 
+          }}>TECHNOLOGIES</div>
           <div class="nav-right" onClick={() => { document.getElementById('project-container').scrollIntoView({ behavior: 'smooth', block: 'end' }) }}>PROJECTS</div>
         </div>
       </div>

@@ -11,7 +11,7 @@ import Blurb from '../components/Body/Blurb';
 const App = () => {
   return (
     <BrowserRouter>
-      <div class='app'>
+      <div className='app'>
         <Bar/>
         <div class='container'>
           <Banner/>
