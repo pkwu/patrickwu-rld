@@ -1,12 +1,6 @@
 body {
   color: white;
-  /* background-color: black; */
-  background-position-x: 50%;
-  background-position-y: 50%;
-  background-repeat: no-repeat;
-  background: url(http://www.wallpapersbyte.com/wp-content/uploads/2015/06/Batman-Arkham-City-Origin-Joker-Smile-Suit-Black-And-White-Fan-Art-WallpapersByte-com-3840x2400.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+  
 }
 
 body.scrolled {
@@ -42,6 +36,7 @@ body.scrolled {
   opacity: 70%;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
 }
 
 .nav-left-container {
@@ -114,8 +109,6 @@ body.scrolled {
 
 .banner-image {
   background: url(http://www.wallpapersbyte.com/wp-content/uploads/2015/06/Batman-Arkham-City-Origin-Joker-Smile-Suit-Black-And-White-Fan-Art-WallpapersByte-com-3840x2400.jpg);
-  background-position-x: 20%;
-  background-position-y: 50%;
   height: 100%;
   position: relative;
   background-image: no-repeat;
@@ -144,9 +137,9 @@ body.scrolled {
   text-shadow: 2px 2px 3px black, 0 0 30px green, 0 0 10px darkgreen;
 }
 
-.project-container {
+#project-container {
   background-color: green;
-  height: 1400px;
+  height: 1300px;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -154,6 +147,7 @@ body.scrolled {
   align-items: flex-end;
   background: url(https://i.pinimg.com/originals/ff/86/13/ff8613e0866bf37dacbb255cd9509b26.jpg);
   background-size: cover;
+  z-index: -1;
 }
 
 .project-entry-container {
@@ -204,35 +198,50 @@ body.scrolled {
   height: auto;
 }
 
-.tech-container {
+#tech-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; 
   width: 100%;
-  height: 55vw;
+  height: 1300px;
   flex-wrap: nowrap;
   /* background-color: white; */
   color: black;
+}
+
+.tech-background {
+  width: 70%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  /* background-color: green; */
+  background: url(https://i.pinimg.com/originals/b7/9d/4e/b79d4edef595d92680fb56f5d28248ac.jpg);
+  opacity: 0.9;
 }
 
 .tech-header {
   margin-top: 2%;
   font-size: 3vw;
   height: 10%;
-  width: 60%;
+  width: 100%;
   /* font-style: oblique; */
   font-family: emilys-candy, sans-serif;
+  color: white;
 }
 
 .tech-list {
   display: flex;
   flex-direction: row;
-  width: 60%;
-  height: 60%;
+  width: 90%;
+  height: 80%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  color: white;
+  opacity: 0.9;
 }
 
 .tech-entry {
@@ -243,37 +252,40 @@ body.scrolled {
   height: 8vw;
   width: 12vw;
   font-size: 1vw;
-  margin-top: 1%;
-  margin-right: 1%;
   font-family: nosifer, sans-serif;
   /* border: 1px solid red; */
+  
 }
 
 .tech-footer {
-  margin-top: 1%;
-  height: 5%;
+  /* margin-top: 1%; */
   text-align: center;
   font-style: oblique;
+  height: 10%;
   font-size: 1vw;
   font-family: cedarville-cursive, sans-serif;
   /* margin-bottom: 10%; */
+  color: white;
 }
 
-.blurb-container {
+#blurb-container {
   display: flex;
-  width: 100%;
-  height: 50vw;
+  flex-direction: column;
   justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 1200px;
   background-color: black;
 }
 
 .blurb {
-  margin-top: 10%;
+  /* margin-top: 25%; */
   width: 50%;
   font-size: 1.5vw;
-  height: 40%;
-  margin-bottom: 10%;
+  height: 50%;
+  /* margin-bottom: 10%; */
   font-family: cedarville-cursive, sans-serif;
+  /* background-color: green; */
 }
 
 .footer-bar {

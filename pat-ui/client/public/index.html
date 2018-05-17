@@ -14,12 +14,8 @@
     <script>
         $(document).ready(function(){
           jQuery(window).scroll( () => {
-            let topPx = 1200;
-            let scroll = jQuery(window).scrollTop();
-            scroll > topPx ? 
-              jQuery('body').addClass('scrolled')
-              : 
-              jQuery('body').removeClass('scrolled')
+            let topPx = 1200, scroll = jQuery(window).scrollTop();
+            scroll > topPx ? jQuery('body').addClass('scrolled') : jQuery('body').removeClass('scrolled');
           })
         });
     </script>

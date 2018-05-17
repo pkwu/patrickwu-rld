@@ -28,7 +28,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div class="project-container">
+      <div id="project-container">
         {
           this.state.projects.map( (project, index) => {
             return <Entry 
