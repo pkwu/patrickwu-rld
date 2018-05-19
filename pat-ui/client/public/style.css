@@ -144,15 +144,16 @@ body.scrolled {
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   background: url(https://i.pinimg.com/originals/ff/86/13/ff8613e0866bf37dacbb255cd9509b26.jpg);
   background-size: cover;
   z-index: -1;
 }
 
 .project-entry-container {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  /* margin-top: 10%; */
+  top: 0;
+  /* margin-bottom: 10%; */
   display: flex;
   width: 10%;
   flex-direction: column;
@@ -211,6 +212,7 @@ body.scrolled {
 }
 
 .tech-background {
+  margin-top: 3%;
   width: 70%;
   height: 65%;
   display: flex;

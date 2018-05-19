@@ -20,8 +20,8 @@ class Bar extends Component {
           <div class="nav-right">RESUME</div>
           <div class="nav-right">CONTACT ME</div>
           <div class="nav-right" onClick={() => { document.getElementById('blurb-container').scrollIntoView({ behavior: 'smooth', block: 'center' }) }}>ABOUT ME</div>
-          <div class="nav-right" onClick={() => { document.getElementById('tech-container').scrollIntoView({ behavior: 'smooth', block: 'start' }) }}>TECHNOLOGIES</div>
-          <div class="nav-right" onClick={() => { document.getElementById('project-container').scrollIntoView({ behavior: 'smooth', block: 'start' }) }}>PROJECTS</div>
+          <div class="nav-right" onClick={() => { document.getElementById('tech-container').scrollIntoView({ behavior: 'smooth', block: 'center' }) }}>TECHNOLOGIES</div>
+          <div class="nav-right" onClick={() => { document.getElementById('project-container').scrollIntoView({ behavior: 'smooth', block: 'center' }) }}>PROJECTS</div>
         </div>
       </div>
     )
