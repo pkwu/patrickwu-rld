@@ -7,7 +7,7 @@ body.scrolled {
   background-position-x: 50%;
   background-position-y: 50%;
   background-repeat: no-repeat;
-  background:url(http://ognature.com/wp-content/uploads/2017/06/sunset-colors-lake-night-art-purple-fishing-landscape-scenery-hd-wallpaper-for-android.jpg);
+  background:url(http://wallfic.com/wp-content/uploads/2017/03/-ideas-about-dark-red-wallpaper-dance-tights-backgrounds-on-panther-tangerine-wallpapers-hd-for-mobile-.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -139,13 +139,13 @@ body.scrolled {
 
 #project-container {
   background-color: green;
-  height: 1300px;
+  height: 1200px;
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Dawn-Forest-Background-For-Free.jpg);
+  background: url(http://wallpaper-gallery.net/images/red-dark-wallpaper/red-dark-wallpaper-2.jpg);
   background-size: cover;
   z-index: -1;
 }
@@ -163,7 +163,7 @@ body.scrolled {
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
   width:18vw;
-  background-color: white;
+  /* background-color: white; */
   margin-left: 1%;
   margin-right: 1%;
 }
