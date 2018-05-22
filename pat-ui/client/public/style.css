@@ -108,8 +108,8 @@ body.scrolled {
 }
 
 .banner-image {
-  background: url(https://orig00.deviantart.net/7017/f/2014/294/a/3/fractal_wallpaper_stock_rupture__incl__stock_png__by_hexe78-d83mizp.jpg);
-  /* background: url(http://ognature.com/wp-content/uploads/2017/06/sunset-colors-lake-night-art-purple-fishing-landscape-scenery-hd-wallpaper-for-android.jpg); */
+  /* background: url(https://orig00.deviantart.net/7017/f/2014/294/a/3/fractal_wallpaper_stock_rupture__incl__stock_png__by_hexe78-d83mizp.jpg); */
+  background: url(http://ognature.com/wp-content/uploads/2017/06/sunset-colors-lake-night-art-purple-fishing-landscape-scenery-hd-wallpaper-for-android.jpg);
   height: 100%;
   position: relative;
   background-image: no-repeat;
@@ -139,14 +139,15 @@ body.scrolled {
 }
 
 #project-container {
-  background-color: green;
+  /* background-color: green; */
   height: 1200px;
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: url(https://wallpapersite.com/images/wallpapers/pink-2560x1440-light-dark-hd-9902.jpg);
+  /* background: url(https://wallpapersite.com/images/wallpapers/pink-2560x1440-light-dark-hd-9902.jpg); */
+  background: url(https://orig00.deviantart.net/e350/f/2008/187/f/3/wallpaper_violet_by_payalnic.png);
   background-size: cover;
   z-index: -1;
 }
@@ -279,7 +280,7 @@ body.scrolled {
   align-items: center; 
   width: 100%;
   height: 1200px;
-  background: url(http://www.hd-freewallpapers.com/free-flower-wallapers/flowers-hd-wallpapers-free-download-hd-3D.jpg);
+  background: url(https://orig00.deviantart.net/e350/f/2008/187/f/3/wallpaper_violet_by_payalnic.png);
   background-size: cover;
   /* background-color: black; */
   /* https://newevolutiondesigns.com/images/freebies/red-wallpaper-1.jpg */
