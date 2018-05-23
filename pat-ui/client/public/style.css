@@ -66,7 +66,7 @@ body.scrolled {
   margin-bottom: 1%; */
   color: red;
   background-color: none;
-  text-shadow: 2px 2px 3px green, 0 0 30px red, 0 0 10px darkred;
+  text-shadow: 2px 2px 3px purple, 0 0 30px red, 0 0 10px darkred;
 }
 
 .nav-right-container {
@@ -94,7 +94,7 @@ body.scrolled {
   padding: 13px 16px;
   background-color: none;
   float: right;
-  text-shadow: 2px 2px 3px green, 0 0 30px red
+  text-shadow: 2px 2px 3px purple, 0 0 30px red
 }
 
 .banner-container {
