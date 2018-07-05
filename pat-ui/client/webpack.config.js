@@ -1,5 +1,5 @@
-const path = require('path');
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: path.resolve('./src/index.js'),
@@ -16,11 +16,18 @@ module.exports = {
         options: {
           presets: ['env', 'react', 'stage-0']
         }
+      },
+      {
+        test: /\.css/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ]
       }
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx', '.css']
   },
   mode: 'development'
 }
